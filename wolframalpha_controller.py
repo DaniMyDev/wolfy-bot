@@ -5,7 +5,6 @@ from os import environ
 wolframalpha_api_key = environ['WOLFRAM_API_KEY']
 wfclient = wolframalpha.Client(wolframalpha_api_key)
 
-
 def fetchWolframAlpha(query):
     res = wfclient.query(query)
     answer = next(res.results)

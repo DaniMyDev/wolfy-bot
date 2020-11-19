@@ -29,13 +29,13 @@ async def wolfyhelp(ctx):
     embed = discord.Embed(title='HELP')
     embed.add_field(name="Commands",
                     value='Hey, type !wolfy to use me')
-    embed.add_field(name="Example 1",
+    embed.add_field(name="wolfy(1)",
                     value='!wolfy 2+2 => 4')
-    embed.add_field(name="Example 2",
+    embed.add_field(name="wolfy(2)",
                     value='!wolfy sin(pi) => 0')
-    embed.add_field(name="Example 2",
+    embed.add_field(name="wolfyplot",
                     value='!wolfyplot [1,2,3,4] [2,4,9,16] => plot using coordenates')
-    embed.add_field(name="Example 2",
+    embed.add_field(name="wolfyplotf",
                     value='!wolfyplotf x**2 => plot using symbolic function')
     embed.set_author(name=bot.user.name)
     embed.set_footer(text="Developed with python",
