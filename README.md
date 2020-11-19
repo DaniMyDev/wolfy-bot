@@ -1,2 +1,2 @@
 # wolfy-bot
-A discord boy connected to Wolfram Alpha API
+A discord boy connected to Wolfram Alpha API 
