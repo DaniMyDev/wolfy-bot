@@ -1,1 +1,1 @@
-worker: python wolfy_bot.py
+worker: python wolfy_bot.py:work
